@@ -1,0 +1,6 @@
+<h2> All posts</h2>
+
+<% @post.each do |post| %>
+  <h4><%= post.title %></h4>
+  <h6><%= post.body %></h6>
+<% end %>
